@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Validación de Documentos</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .header-container {
+        width: 100%;
+        background-color: #6BBD07; /* Verde específico */
+    }
+    .header {
+        color: #00008B; /* Azul oscuro casi negro */
+        padding: 50px; /* Aumenta el padding para espaciado */
+        text-align: left;
+        font-size: 2.5em; /* Tamaño de letra para el encabezado principal */
+        position: relative;
+        box-sizing: border-box;
+    }
+    .header::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: black;
+    }
+    .header-text {
+        margin-left: 150px;
+    }
+    .subheader {
+        color: #FFA000;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 1.6em; /* Tamaño de letra para los títulos */
+        margin-bottom: 20px;
+    }
+    .subheader-text {
+        margin-left: 30px;
+    }
+    .data-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1.4em; /* Tamaño de letra para el contenido de la tabla */
+    }
+    .data-table th,
+    .data-table td {
+        border: 1px solid #ddd;
+        padding: 12px; /* Ajuste de espacio interno */
+        text-align: left;
+    }
+    .data-table th {
+        background-color: #f2f2f2;
+        font-size: 1.6em; /* Tamaño de letra para los encabezados de columna */
+    }
+    .gray-column {
+        background-color: rgba(200, 200, 200, 0.7); /* Gris claro con transparencia */
+        width: 1in;
+    }
+    .white-column {
+        background-color: #ffffff;
+        padding-left: 5px;
+    }
+    .footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #888;
+    }
+    @media (max-width: 600px) {
+        .header {
+            padding: 25px;
+            font-size: 2em;
+        }
+        .header-text {
+            margin-left: 0;
+        }
+        .subheader {
+            font-size: 1.2em;
+        }
+        .subheader-text {
+            margin-left: 10px;
+        }
+        .data-table th,
+        .data-table td {
+            padding: 8px;
+        }
+        .data-table th {
+            font-size: 1.2em;
+        }
+        .data-table td {
+            font-size: 1em;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="header-text">PLACA PROVISIONAL</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="subheader">
+            <div class="subheader-text">Sistema Datamatrix</div>
+            <div class="subheader-text"><font color="green">Validación de Documentos</font></div>
+        </div>
+        <table class="data-table">
+            <tbody>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">código</th>
+                    <td class="white-column" style="font-size: 1.4em;">gk8tlxy</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Placa</th>
+                    <td class="white-column" style="font-size: 1.4em;">PP734491</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Tipo de<br>vehículo</th>
+                    <td class="white-column" style="font-size: 1.4em;">AUTOMOVIL</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Marca</th>
+                    <td class="white-column" style="font-size: 1.4em;">HONDA</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">modelo</th>
+                    <td class="white-column" style="font-size: 1.4em;">ACCORD LX</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Color</th>
+                    <td class="white-column" style="font-size: 1.4em;">GRIS</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">año</th>
+                    <td class="white-column" style="font-size: 1.4em;">2020</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Chasis</th>
+                    <td class="white-column" style="font-size: 1.4em;">1HGCV1F17LA101931</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Fecha<br>Emisión</th>
+                    <td class="white-column" style="font-size: 1.4em;">24/06/2024</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Fecha<br>Expiración</th>
+                    <td class="white-column" style="font-size: 1.4em;">22/09/2024</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Razón Social /<br>Nombre<br>Importador</th>
+                    <td class="white-column" style="font-size: 1.4em;">GCIAJ AUTO IMPORT EIRL</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Rnc/Cédula<br>Importador</th>
+                    <td class="white-column" style="font-size: 1.4em;">131702783</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Razón Social /<br>Nombre<br>Comprador</th>
+                    <td class="white-column" style="font-size: 1.4em;">FRANCISCO ANTONIO MARTINEZ</td>
+                </tr>
+                <tr>
+                    <th class="gray-column" style="font-size: 1.6em;">Rnc/Cédula<br>Comprador</th>
+                    <td class="white-column" style="font-size: 1.4em;">10600021553</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="footer">
+            Dirección General de Impuestos Internos.
+        </div>
+    </div>
+</body>
+</html>
